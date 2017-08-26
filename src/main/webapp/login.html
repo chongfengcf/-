@@ -1,0 +1,31 @@
+#@layout()
+
+#define pageinfo()
+    <link href="#(ctx)/css/login.css" rel="stylesheet">
+    <title>欢迎登陆合同订单发货系统</title>
+#end
+
+#define main()
+<div class="container">
+    <form class="form-signin" action="#(ctx)/login/validatelogin" method="post">
+        #(msg??'<div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>错误!</strong> 请确认你的账户信息是否正确.
+    </div>')
+        <h2 class="form-signin-heading">请登录</h2>
+        <input type="text" name="login.Username" class="form-control" placeholder="用户名" required autofocus>
+        <input type="password" name="login.Passcode" class="form-control" placeholder="密码" required>
+        <div class="btn-group btn-group-justified" data-toggle="buttons">
+            <label class="btn btn-primary active">
+                <input type="radio" name="login.Isadmin" value="1" checked> 经理
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" name="login.Isadmin" value="0"> 客户
+            </label>
+        </div>
+        <button class="btn btn-lg  btn-primary btn-block" type="submit">登录</button>
+        <a href="#" class="btn btn-lg  btn-default btn-block" role="button">注册</a>
+    </form>
+</div>
+#end
+

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SXHT:war">
+    <output-path>$PROJECT_DIR$/../SXHT/target</output-path>
+    <root id="archive" name="SXHT.war">
+      <element id="artifact" artifact-name="SXHT:war exploded" />
+    </root>
+  </artifact>
+</component>

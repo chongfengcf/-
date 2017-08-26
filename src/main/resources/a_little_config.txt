@@ -1,0 +1,3 @@
+jdbcUrl = jdbc:sqlserver://localhost:1433;databaseName=HTDB;
+user = sa
+password = 38wqlj06
