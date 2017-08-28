@@ -8,30 +8,7 @@
 #@navshow?()
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-            <ul class="nav nav-sidebar">
-                <li ><a href="/">首页</a></li>
-                <li><a href="#">合同签订</a></li>
-                <li><a href="#">合同查询</a></li>
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li><a href="">库存查询</a></li>
-                <li><a href="">产品发货</a></li>
-                <li><a href="/supplier">供应商管理</a></li>
-                <li><a href="/class">品类管理</a></li>
-                <li class="active"><a href="/warehouse">仓库管理</a></li>
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li><a href="">客户查询</a></li>
-                <li><a href="">员工查询</a></li>
-                <li><a href="">销量统计</a></li>
-            </ul>
-            <ul class="nav nav-sidebar">
-                <li class="disabled"><a href="#">网站制作</a></li>
-                <li class="disabled"><a href="#">沈 鑫</a></li>
-                <li class="disabled"><a href="#">翁贵森</a></li>
-            </ul>
-        </div>
+        #@leftnav?()
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1 class="page-header">仓库管理</h1>
             <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">增加</button>
@@ -115,4 +92,8 @@
         </div>
     </div>
 </div>
+#end
+
+#define js()
+<script src="#(ctx)/js/baseurl.js"></script>
 #end

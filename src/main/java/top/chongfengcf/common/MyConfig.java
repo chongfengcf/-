@@ -42,7 +42,7 @@ public class MyConfig extends JFinalConfig{
         ActiveRecordPlugin arp = new ActiveRecordPlugin(dp);
         arp.setDialect(new SqlServerDialect());
         arp.addMapping("Login", "Username", Login.class);
-
+        arp.addMapping("Customer", "Cid", Customer.class);
         plugins.add(arp);
     }
 
