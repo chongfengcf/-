@@ -1,8 +1,10 @@
 package top.chongfengcf.controller;
 
+import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
+import com.jfinal.plugin.activerecord.tx.Tx;
 
 import java.util.List;
 
@@ -33,10 +35,12 @@ public class ClassController extends Controller {
         redirect("/class");
     }
 
+    @Before(Tx.class)
     public void delete() {
         String classid = getPara();
         Record classoj = Db.findById("Class", "Classid", classid);
         if (classoj != null) {
+            Db.update("update Product set Classid=NULL where Classid=?", classid);
             Db.delete("Class", "Classid", classoj);
             redirect("/class");
         } else {
@@ -45,8 +49,13 @@ public class ClassController extends Controller {
     }
 
     public void add(){
+        int maxid;
         String max = Db.queryStr("select max(Classid) from Class");
-        int maxid = Integer.valueOf(max) + 1;
+        try {
+            maxid = Integer.valueOf(max) + 1;
+        }catch (NumberFormatException e){
+            maxid = 1;
+        }
         String classid = String.format("%03d", maxid);
         String classname = getPara("classname");
         Record classoj = new Record().set("Classid", classid).set("Classname", classname);

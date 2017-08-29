@@ -1,9 +1,10 @@
 package top.chongfengcf.controller;
 
+import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
-import top.chongfengcf.model.Warehouse;
+import com.jfinal.plugin.activerecord.tx.Tx;
 
 import java.util.List;
 
@@ -39,10 +40,12 @@ public class WarehouseController extends Controller {
         redirect("/warehouse");
     }
 
+    @Before(Tx.class)
     public void delete(){
         String wid = getPara();
         Record warehouse = Db.findById("Warehouse", "Wid", wid);
         if(warehouse!=null){
+            Db.update("update Product set Wid=NULL where Wid=?", wid);
             Db.delete("Warehouse", "Wid",warehouse);
             redirect("/warehouse");
         }
@@ -52,8 +55,13 @@ public class WarehouseController extends Controller {
     }
 
     public void add(){
+        int maxid;
         String max = Db.queryStr("select max(Wid) from Warehouse");
-        int maxid = Integer.valueOf(max) + 1;
+        try {
+            maxid = Integer.valueOf(max) + 1;
+        }catch (NumberFormatException e){
+            maxid = 1;
+        }
         String wid = String.format("%03d", maxid);
         String wname = getPara("wname");
         String wlocation = getPara("wlocation");

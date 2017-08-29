@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2859e25-71dc-4e71-9c0c-2b279fcc76ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/js/baseurl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/StaffController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Staff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/staff/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/staff/staff.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Warehouse.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SXHT/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/log/SXHT.log" afterPath="$PROJECT_DIR$/../SXHT/log/SXHT.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/common/MyConfig.java" afterPath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/common/MyConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/ClassController.java" afterPath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/ClassController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/CustomerController.java" afterPath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/CustomerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/resources/a_little_config.txt" afterPath="$PROJECT_DIR$/../SXHT/src/main/resources/a_little_config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/class/class.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/class/class.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/class/edit.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/class/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/SupplierController.java" afterPath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/SupplierController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/WarehouseController.java" afterPath="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/WarehouseController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/common/_navtemp.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/common/_navtemp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/customer.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/customer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/supplier/edit.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/supplier/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/supplier/supplier.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/supplier/supplier.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/edit.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/warehouse.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/warehouse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/edit.html" afterPath="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/edit.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../SXHT/out/" />
     <ignored path="$PROJECT_DIR$/../SXHT/target/" />
@@ -34,46 +33,13 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MyConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/common/MyConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-437">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_navtemp.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/common/_navtemp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseurl.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/js/baseurl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,13 +47,15 @@
     <findStrings>
       <find>2</find>
       <find>sr-only</find>
-      <find>warehouse</find>
       <find>updat</find>
       <find>updata</find>
       <find>supplier</find>
       <find>class</find>
       <find>404</find>
       <find>update</find>
+      <find>warehouse</find>
+      <find>customer</find>
+      <find>客户</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,26 +90,30 @@
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse.html" />
         <option value="$PROJECT_DIR$/../SXHT/pom.xml" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/WarehouseController.java" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/supplier/class.html" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/ClassController.java" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/SupplierController.java" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/index.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/common/_basetemp.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/resources/a_little_config.txt" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/common/MyConfig.java" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/edit.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/common/_navtemp.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/class/class.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/class/edit.html" />
-        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/customer.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/supplier/edit.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/supplier/supplier.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/edit.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/warehouse.html" />
         <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/js/baseurl.js" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/customer.html" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Staff.java" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/common/MyConfig.java" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/common/_navtemp.html" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/customer/edit.html" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/staff/staff.html" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/StaffController.java" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/webapp/staff/edit.html" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/ClassController.java" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/SupplierController.java" />
+        <option value="$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/WarehouseController.java" />
       </list>
     </option>
   </component>
@@ -180,8 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,7 +226,7 @@
               <item name="SXHT" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SXHT" type="b2602c69:ProjectViewProjectNode" />
@@ -264,6 +234,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SXHT" type="b2602c69:ProjectViewProjectNode" />
@@ -279,22 +250,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SXHT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SXHT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="staff" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,15 +270,16 @@
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SXHT\src\main\webapp\staff" />
+      <recent name="F:\SXHT\src\main\webapp\supplier" />
+      <recent name="F:\SXHT\src\main\webapp\class" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\SXHT\src\main\webapp\warehouse" />
       <recent name="F:\SXHT\src\main\webapp\css" />
       <recent name="F:\SXHT\src\main\webapp" />
       <recent name="F:\SXHT\src\main\resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\SXHT\src\main\webapp\supplier" />
-      <recent name="F:\SXHT\src\main\webapp\class" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -476,7 +442,8 @@
       <workItem from="1503801784146" duration="3348000" />
       <workItem from="1503814724436" duration="6864000" />
       <workItem from="1503849946900" duration="4658000" />
-      <workItem from="1503893245553" duration="3584000" />
+      <workItem from="1503893245553" duration="21490000" />
+      <workItem from="1503990609962" duration="4629000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1503716605388</created>
@@ -485,11 +452,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503716605389</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="使用js代码来激活导航路径">
+      <created>1503897369924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1503897369924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118469000" />
+    <option name="totallyTimeSpent" value="141004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -560,57 +534,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+    <MESSAGE value="使用js代码来激活导航路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用js代码来激活导航路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal-java8/3.2/jfinal-java8-3.2.jar!/com/jfinal/core/converter/Converters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal-java8/3.2/jfinal-java8-3.2.jar!/com/jfinal/plugin/activerecord/DbKit.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal-java8/3.2/jfinal-java8-3.2.jar!/com/jfinal/plugin/activerecord/IContainerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal-java8/3.2/jfinal-java8-3.2.jar!/com/jfinal/plugin/activerecord/Table.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal-java8/3.2/jfinal-java8-3.2.jar!/com/jfinal/core/converter/TypeConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal-java8/3.2/jfinal-java8-3.2.jar!/com/jfinal/plugin/activerecord/TableMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal-java8/3.2/jfinal-java8-3.2.jar!/com/jfinal/plugin/activerecord/Model.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -675,13 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Warehouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Warehouse.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/add.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/_layout.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$4/DemoConfig.java" />
@@ -714,24 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/WarehouseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="59" column="44" lean-forward="true" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/SupplierController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -759,44 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.2/jfinal-3.2.jar!/com/jfinal/aop/Invocation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/ClassController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,37 +686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/common/MyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/class/class.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/customer/customer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/customer/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,15 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="40" column="4" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="98" column="4" lean-forward="false" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,15 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="161" column="35" lean-forward="true" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/common/_navtemp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,7 +732,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.2/jfinal-3.2.jar!/com/jfinal/kit/Base64Kit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1022">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/warehouse/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/model/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/common/_navtemp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/customer/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1403">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/customer/customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/staff/staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/webapp/staff/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="90" column="4" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/SupplierController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="42" column="91" lean-forward="false" selection-start-line="42" selection-start-column="91" selection-end-line="42" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/ClassController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/StaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/controller/WarehouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SXHT/src/main/java/top/chongfengcf/common/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

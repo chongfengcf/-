@@ -26,6 +26,7 @@ public class MyConfig extends JFinalConfig{
         routes.add("/class", ClassController.class, "/class");
         routes.add("/supplier", SupplierController.class, "/supplier");
         routes.add("/customer", CustomerController.class, "/customer");
+        routes.add("/staff", StaffController.class, "/staff");
     }
 
     @Override
@@ -43,6 +44,7 @@ public class MyConfig extends JFinalConfig{
         arp.setDialect(new SqlServerDialect());
         arp.addMapping("Login", "Username", Login.class);
         arp.addMapping("Customer", "Cid", Customer.class);
+        arp.addMapping("Staff", "Sid", Staff.class);
         plugins.add(arp);
     }
 
