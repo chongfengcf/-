@@ -15,9 +15,8 @@
             </form>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">首页</a></li>
-                <li><a href="#">设置</a></li>
-                <li><a href="#">资料</a></li>
-                <li><a href="#">信息</a></li>
+                <li><a href="#">欢迎您,#(session.user)</a></li>
+                <li><a href="/login/exit">安全退出</a></li>
             </ul>
         </div>
     </div>
@@ -28,12 +27,13 @@
 <div class="col-sm-3 col-md-2 sidebar">
     <ul class="nav nav-sidebar">
         <li id="firstpage"><a href="/">首页</a></li>
-        <li><a href="#">合同签订</a></li>
-        <li><a href="#">合同查询</a></li>
+        <li id="cp"><a href="/cp">合同签订</a></li>
+        <li id="contract"><a href="/contract">合同查询</a></li>
     </ul>
     <ul class="nav nav-sidebar">
-        <li><a href="">库存查询</a></li>
-        <li><a href="">产品发货</a></li>
+        <li id="product"><a href="/product">库存查询</a></li>
+        <li id="cpl"><a href="/cpl">产品发货</a></li>
+        <li id="logistics"><a href="/logistics">发货查询</a></li>
         <li id="supplier"><a href="/supplier">供应商管理</a></li>
         <li id="class"><a href="/class">品类管理</a></li>
         <li id="warehouse"><a href="/warehouse">仓库管理</a></li>
@@ -41,7 +41,6 @@
     <ul class="nav nav-sidebar">
         <li id="customer"><a href="/customer">客户查询</a></li>
         <li id="staff"><a href="/staff">员工查询</a></li>
-        <li><a href="">销量统计</a></li>
     </ul>
     <ul class="nav nav-sidebar">
         <li class="disabled"><a href="#">网站制作</a></li>

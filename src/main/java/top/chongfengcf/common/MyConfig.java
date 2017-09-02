@@ -1,10 +1,12 @@
 package top.chongfengcf.common;
 
 import com.jfinal.ext.handler.ContextPathHandler;
+import com.jfinal.ext.interceptor.SessionInViewInterceptor;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 import com.jfinal.plugin.activerecord.dialect.SqlServerDialect;
 import com.jfinal.plugin.druid.DruidPlugin;
+import top.chongfengcf.Interceptor.UserInterceptor;
 import top.chongfengcf.controller.*;
 import com.jfinal.config.*;
 import com.jfinal.core.JFinal;
@@ -27,12 +29,18 @@ public class MyConfig extends JFinalConfig{
         routes.add("/supplier", SupplierController.class, "/supplier");
         routes.add("/customer", CustomerController.class, "/customer");
         routes.add("/staff", StaffController.class, "/staff");
+        routes.add("/contract", ContractController.class, "/contract");
+        routes.add("/cp", CpController.class, "/cp");
+        routes.add("/cpl", CplController.class, "/cpl");
+        routes.add("/product",ProductController.class, "/product");
+        routes.add("/logistics", LogisticsController.class, "/logistics");
     }
 
     @Override
     public void configEngine(Engine engine) {
         engine.addSharedFunction("/common/_basetemp.html");
         engine.addSharedFunction("/common/_navtemp.html");
+        engine.addSharedMethod(new com.jfinal.plugin.activerecord.Db());
     }
 
     @Override
@@ -45,12 +53,16 @@ public class MyConfig extends JFinalConfig{
         arp.addMapping("Login", "Username", Login.class);
         arp.addMapping("Customer", "Cid", Customer.class);
         arp.addMapping("Staff", "Sid", Staff.class);
+        arp.addMapping("Contract", "Coid", Contract.class);
+        arp.addMapping("Logistics", "Lid", Logistics.class);
+        arp.addMapping("Product","Pid", Product.class);
         plugins.add(arp);
     }
 
     @Override
     public void configInterceptor(Interceptors interceptors) {
-
+        interceptors.addGlobalActionInterceptor(new UserInterceptor());
+        interceptors.add(new SessionInViewInterceptor());
     }
 
     @Override
