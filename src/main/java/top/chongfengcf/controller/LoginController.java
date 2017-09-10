@@ -6,7 +6,6 @@ import com.jfinal.kit.HashKit;
 import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Record;
 import top.chongfengcf.model.Login;
-import top.chongfengcf.util.Encrypt;
 
 @Clear
 public class LoginController extends Controller{

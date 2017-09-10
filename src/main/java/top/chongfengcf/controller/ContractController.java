@@ -38,8 +38,8 @@ public class ContractController extends Controller{
     public void delete(){
         String coid = getPara();
         Record contract = Db.findById("Contract", "Coid", coid);
-        Db.update("delete CP where Coid=?", coid);
-        Db.update("delete CPL where Coid=?", coid);
+        Db.update("delete from CP where Coid=?", coid);
+        Db.update("delete from CPL where Coid=?", coid);
         Db.deleteById("Contract", "Coid", coid);
         redirect("/contract");
     }
@@ -49,7 +49,7 @@ public class ContractController extends Controller{
         Record contract = Db.findById("Contract", "Coid", coid);
         Record customer = Db.findById("Customer", "Cid", contract.getStr("Cid"));
         Record staff = Db.findById("Staff", "Sid", contract.getStr("Sid"));
-        List<Record> cplist = Db.find("select CP.*,Pname,Pprice from CP,Product where cp.Pid=Product.Pid and Coid=?", coid);
+        List<Record> cplist = Db.find("select CP.*,Pname,Pprice from CP,Product where CP.Pid=Product.Pid and Coid=?", coid);
         try {
             setAttr("cname", customer.getStr("Cname"));
         }catch (NullPointerException e){
